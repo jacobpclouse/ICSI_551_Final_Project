@@ -7,7 +7,7 @@
 % ----------------------------------------------
 
 % ENTER FUNCTION NAME HERE
-% Lego Mindstorm - beep demo
+% Lego Mindstorm - motor demo
 %
 % Usage:
 %           function [ output_args ] = Untitled2( input_args )
@@ -20,33 +20,26 @@
 %   Need to have the name of the lego brick that you are running
 % 
 % Created By: 
-%           Jacob Clouse - (BASED OFF OF THIS SOURCE: https://youtu.be/rp3ChAZi1Aw)
-%           19 Nov 2023
+%           ENTER YOUR NAME
+%           ENTER THE DATE
 %
 % ENTER MODIFICATION INFORMATION HERE
 
-disp('Starting Demo 1: Beep Test');
+disp('Starting Demo 2: Motor Test');
 
-% Connect to the EV3 brick - usb
+% Connect to the EV3 brick - 'BTHUB0'
 myLegoEV3 = legoev3('USB');  % Use 'USB' as the connection type
+%myLegoEV3 = legoev3('Bluetooth', 'EV3');  % using bluetooth to connect, replace EV3 with name of your brick
+displayText(myLegoEV3, 'Nasa4Evr', 'FontSize', 20);
 
+% Move the motor connected to port 'A' for 2 seconds
+motorA = motor(myLegoEV3, 'A');
+start(motorA, 20);
+pause(2);         
+stop(motorA);
 
-% make 3 beeps
-myLegoEV3.playTone(440,.25,15)
-pause(.3)
-myLegoEV3.playTone(440,.25,15)
-pause(.3)
-myLegoEV3.playTone(440,.25,15)
-pause(.3)
-
-% assigning data sensor and motors
-sonic = sonicsensor(myLegoEV3);
-touch = touchsensor(myLegoEV3);
-infared = irsensor(myLegoEV3);
-gyro = gyrosensor(myLegoEV3);
-
-leftMotor = motor(myLegoEV3, 'B');
-rightMotor = motor(myLegoEV3, 'C');
+% make beep
+playTone(myLegoEV3, 500, 0.5); 
 
 % Disconnect EV3 
 disconnect(myLegoEV3);
