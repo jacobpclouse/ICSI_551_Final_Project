@@ -5,3 +5,5 @@ Final Projects are required for both Graduate Students and PHY 451Y students. St
 ## Resources:
 - Interact with EV3 Brick Peripherals, Read Sensor Values, and Control Motors: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/interact-with-ev3-brick-peripherals-read-sensor-values-and-control-motors.html
 - MINDSTORMS® EV3 Core Set Tutorials: https://education.lego.com/en-us/lessons/ev3-tutorials/
+- "Having One LEGO Mindstorms EV3 Brick Connect To Another": https://www.youtube.com/watch?v=SydYVqXgGak
+- MATLAB Support for LEGO MINDSTORMS EV3: https://www.youtube.com/watch?v=rp3ChAZi1Aw
