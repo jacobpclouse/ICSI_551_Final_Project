@@ -10,3 +10,4 @@ Final Projects are required for both Graduate Students and PHY 451Y students. St
 - [IMPORTANT] MATLAB Meets MINDSTORMS: How to Control LEGO NXT Robots Using MATLAB for Educational Purposes: https://www.mathworks.com/videos/matlab-meets-mindstorms-how-to-control-lego-nxt-robots-using-matlab-for-educational-purposes-90418.html
 - Is LEGO MINDSTORMS NXT supported in previous releases?: https://www.mathworks.com/matlabcentral/answers/95216-is-lego-mindstorms-nxt-supported-in-previous-releases
 - RWTH - Mindstorms NXT Toolbox: https://www.mathworks.com/matlabcentral/fileexchange/18646-rwth-mindstorms-nxt-toolbox
+- EV3 connection with bluetooth: https://www.ev3dev.org/docs/tutorials/connecting-to-the-internet-via-bluetooth/
