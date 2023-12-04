@@ -7,3 +7,5 @@ Final Projects are required for both Graduate Students and PHY 451Y students. St
 - MINDSTORMS® EV3 Core Set Tutorials: https://education.lego.com/en-us/lessons/ev3-tutorials/
 - "Having One LEGO Mindstorms EV3 Brick Connect To Another": https://www.youtube.com/watch?v=SydYVqXgGak
 - MATLAB Support for LEGO MINDSTORMS EV3: https://www.youtube.com/watch?v=rp3ChAZi1Aw
+- [IMPORTANT] MATLAB Meets MINDSTORMS: How to Control LEGO NXT Robots Using MATLAB for Educational Purposes: https://www.mathworks.com/videos/matlab-meets-mindstorms-how-to-control-lego-nxt-robots-using-matlab-for-educational-purposes-90418.html
+s
