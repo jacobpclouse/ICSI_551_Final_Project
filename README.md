@@ -3,7 +3,7 @@ Final Projects are required for both Graduate Students and PHY 451Y students. St
 
 
 ## Resources:
-- Interact with EV3 Brick Peripherals, Read Sensor Values, and Control Motors: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/interact-with-ev3-brick-peripherals-read-sensor-values-and-control-motors.html
+- **Interact with EV3 Brick Peripherals, Read Sensor Values, and Control Motors: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/interact-with-ev3-brick-peripherals-read-sensor-values-and-control-motors.html
 - MINDSTORMS® EV3 Core Set Tutorials: https://education.lego.com/en-us/lessons/ev3-tutorials/
 - "Having One LEGO Mindstorms EV3 Brick Connect To Another": https://www.youtube.com/watch?v=SydYVqXgGak
 - MATLAB Support for LEGO MINDSTORMS EV3: https://www.youtube.com/watch?v=rp3ChAZi1Aw
@@ -11,3 +11,7 @@ Final Projects are required for both Graduate Students and PHY 451Y students. St
 - Is LEGO MINDSTORMS NXT supported in previous releases?: https://www.mathworks.com/matlabcentral/answers/95216-is-lego-mindstorms-nxt-supported-in-previous-releases
 - RWTH - Mindstorms NXT Toolbox: https://www.mathworks.com/matlabcentral/fileexchange/18646-rwth-mindstorms-nxt-toolbox
 - EV3 connection with bluetooth: https://www.ev3dev.org/docs/tutorials/connecting-to-the-internet-via-bluetooth/
+- Simulink toolbox download: https://www.mathworks.com/matlabcentral/fileexchange/45075-simulink-support-package-for-lego-mindstorms-ev3-hardware
+- EV3 software linux: https://www.ev3dev.org/
+- PixyMon v2: https://pixycam.com/downloads-pixy2/
+- Getting Started with LEGO MINDSTORMS EV3 Hardware: https://www.mathworks.com/help/releases/R2023b/supportpkg/legomindstormsev3/ref/getting-started-with-lego-mindstorms-ev3-hardware.html
