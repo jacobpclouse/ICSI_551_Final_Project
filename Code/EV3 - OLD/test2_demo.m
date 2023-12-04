@@ -27,19 +27,20 @@
 
 disp('Starting Demo 2: Motor Test');
 
+
 % Connect to the EV3 brick - 'BTHUB0'
-myLegoEV3 = legoev3('USB');  % Use 'USB' as the connection type
-%myLegoEV3 = legoev3('Bluetooth', 'EV3');  % using bluetooth to connect, replace EV3 with name of your brick
-displayText(myLegoEV3, 'Nasa4Evr', 'FontSize', 20);
+myLegoEV3 = legoev3('USB'); % Use 'USB' as the connection type
+% myLegoEV3 = legoev3('Bluetooth', 'EV3'); % using bluetooth to connect, replace EV3 with the name of your brick
+% displayText(myLegoEV3, 'EV3', 'FontSize', 20);
 
 % Move the motor connected to port 'A' for 2 seconds
 motorA = motor(myLegoEV3, 'A');
 start(motorA, 20);
-pause(2);         
+pause(2);
 stop(motorA);
 
 % make beep
-playTone(myLegoEV3, 500, 0.5); 
+playTone(myLegoEV3, 500, 0.5);
 
-% Disconnect EV3 
+% Disconnect EV3
 disconnect(myLegoEV3);
