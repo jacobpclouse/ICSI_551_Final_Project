@@ -37,11 +37,29 @@ playTone(myev3, 500, 0.5);
 writeLCD(myev3,'Demo 2: Motor Test') % display text on the ev3 display
 
 
-% Move the motor connected to port 'A' for 2 seconds
-%motorA = motor(myev3, 'A');
-%start(motorA, 20);
-%pause(2);
-%stop(motorA);
+% Move the motor connected to port 'B' for 2 seconds
+motorSelected = motor(myev3, 'B');
+start(motorSelected, 20);
+pause(2);
+stop(motorSelected);
+
+
+% *1. Plug a motor into port #C on the EV3 brick, and create a handle for it.*
+mymotor = motor(myev3,'C')
+
+% *2. Set the motor speed by assigning a value to the |Speed| property.*
+mymotor.Speed = 20
+
+% *3. Start the motor.*
+start(mymotor)
+
+% *4. Change the motor speed and reverse its direction.*
+mymotor.Speed = -10
+
+% *5. Stop the motor.*
+stop(mymotor)
+
+
 
 % make ending beep
 playTone(myev3, 600, .5);
@@ -49,3 +67,4 @@ playTone(myev3, 600, .5);
 
 % Disconnect EV3
 %disconnect(myev3);
+clear;
