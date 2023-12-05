@@ -15,3 +15,5 @@ Final Projects are required for both Graduate Students and PHY 451Y students. St
 - EV3 software linux: https://www.ev3dev.org/
 - PixyMon v2: https://pixycam.com/downloads-pixy2/
 - Getting Started with LEGO MINDSTORMS EV3 Hardware: https://www.mathworks.com/help/releases/R2023b/supportpkg/legomindstormsev3/ref/getting-started-with-lego-mindstorms-ev3-hardware.html
+- Connect a Host Computer Running Windows to an EV3 Brick Using Bluetooth: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ug/connect-to-an-ev3-brick-over-bluetooth-using-windows-1.html
+- [Troubleshooting] Cannot Connect to the EV3 Brick: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ug/cannot-connect-ev3brick-lego.html

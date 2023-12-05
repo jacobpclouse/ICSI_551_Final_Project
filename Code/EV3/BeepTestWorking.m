@@ -24,29 +24,29 @@
 %           19 Nov 2023
 %
 % ENTER MODIFICATION INFORMATION HERE
-
+clear all;
 disp('Starting Demo 1: Beep Test');
 
 % Connect to the EV3 brick - usb
-myLegoEV3 = legoev3('USB');  % Use 'USB' as the connection type
+myev3 = legoev3('USB');  % Use 'USB' as the connection type
 
 
 % make 3 beeps
-myLegoEV3.playTone(440,.25,15)
+myev3.playTone(440,.25,15)
 pause(.3)
-myLegoEV3.playTone(440,.25,15)
+myev3.playTone(440,.25,15)
 pause(.3)
-myLegoEV3.playTone(440,.25,15)
+myev3.playTone(440,.25,15)
 pause(.3)
 
 % assigning data sensor and motors
-sonic = sonicsensor(myLegoEV3);
-touch = touchsensor(myLegoEV3);
-infared = irsensor(myLegoEV3);
-gyro = gyrosensor(myLegoEV3);
+%sonic = sonicsensor(myev3);
+%touch = touchsensor(myev3);
+%infared = irsensor(myev3);
+%gyro = gyrosensor(myev3);
 
-leftMotor = motor(myLegoEV3, 'B');
-rightMotor = motor(myLegoEV3, 'C');
+%leftMotor = motor(myev3, 'B');
+%rightMotor = motor(myev3, 'C');
 
 % Disconnect EV3 
-disconnect(myLegoEV3);
+%disconnect(myev3);
