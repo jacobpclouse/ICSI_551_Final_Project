@@ -25,12 +25,14 @@
 %
 % ENTER MODIFICATION INFORMATION HERE
 
+
+% Read data from the motor sensor documentation: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/motor.html
+
 clear all; % make sure to remove any pre existing variables before instantiation
 disp('Starting Demo 3: Motor Test');
 
 % Connect to the EV3 brick
 myev3 = legoev3('USB'); % Use 'USB' as the connection type
-% myev3 = legoev3('Bluetooth', 'EV3'); % using bluetooth to connect -- could not get to connect
 
 % make starting beep
 playTone(myev3, 500, 0.5);

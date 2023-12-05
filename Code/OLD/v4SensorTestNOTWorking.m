@@ -56,16 +56,22 @@ disp(connectedSensorsList);
 % More Color Sensor documentation: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/colorsensor.html
 
 % create color sensor
-%mycolorsensor = colorSensor(myev3,2);
+mycolorsensor = colorSensor(myev3);
 
 % read / store data from color sensor
-%color = readColor(mycolorsensor);
-color = readColor(NXT_LIGHT);
+color = readColor(mycolorsensor);
 
 % Display the color value
 disp('Current Color Value:');
 disp(Color);
 
+
+% I tried to change:
+%	mycolorsensor = colorSensor(myev3); to mycolorsensor = colorSensor(myev3,2);  %because the light sensor is on port 2, no dice
+
+
+% I tried removing mycolorsensor = colorSensor(myev3); altogether and simply changed:
+%	color = readColor(mycolorsensor); to color = readColor(NXT_LIGHT); % but this did not work either
 
 
 
