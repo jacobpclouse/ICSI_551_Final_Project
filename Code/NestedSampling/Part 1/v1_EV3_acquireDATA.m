@@ -145,4 +145,17 @@ writeLCD(myev3,['Intensity = ' numToStringData]) % ev3 display to show results
 
 STATE.rotc = currentROTC;
 
+% ---------------------------------------------------------------------
+
+% make ending beep
+myev3.playTone(540,.25,15)
+pause(.3)
+myev3.playTone(440,.25,15)
+pause(.3)
+myev3.playTone(340,.25,15)
+pause(.3)
+
+clearLCD(myev3) % clear text from display
+clear;
+
 return
