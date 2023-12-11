@@ -5,6 +5,7 @@ Final Projects are required for both Graduate Students and PHY 451Y students. St
 - Final Project Report is inside the Documentation folder
 - All Code is inside the Code folder, the EV3 folder has the sample hardware tests I used and the hardware function references
 - The Code/NestedSampling Folder is where I put the adjustments to the robot code that Dr. Knuth provided. Part 1 is where the EV3 adjusted code is (we will use this when we get the color sensor working again). Part 2 is a sample program to prove that the nested sampling still works with hard coded input. 
+- The Lego Classroom for Mindstorm folder has a sample project to use as a control to see if the motors are working and connect to the pc properly.
 
 
 ## Resources:
