@@ -1,6 +1,11 @@
 # ICSI_551_Final_Project
 Final Projects are required for both Graduate Students and PHY 451Y students. Students can choose to work individually or in groups of two to propose, perform, and present a final project for the course. This project will be a project that uses methods taught in this course to solve a data analysis or signal processing problem.
 
+## FAQ:
+- Final Project Report is inside the Documentation folder
+- All Code is inside the Code folder, the EV3 folder has the sample hardware tests I used and the hardware function references
+- The Code/NestedSampling Folder is where I put the adjustments to the robot code that Dr. Knuth provided. Part 1 is where the EV3 adjusted code is (we will use this when we get the color sensor working again). Part 2 is a sample program to prove that the nested sampling still works with hard coded input. 
+
 
 ## Resources:
 - **Interact with EV3 Brick Peripherals, Read Sensor Values, and Control Motors: https://www.mathworks.com/help/supportpkg/legomindstormsev3io/ref/interact-with-ev3-brick-peripherals-read-sensor-values-and-control-motors.html
